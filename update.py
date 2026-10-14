@@ -74,17 +74,21 @@ def main():
     state=json.load(open("posts.json")); known=set(state["known_slugs"])
     posts=json.loads(get(ARCH)); new=[p for p in posts if p["slug"] not in known and p.get("audience")=="everyone"]
     if not new: print("no new posts"); return
-    page=open("index.html").read()
+    # Shared source of truth: feed.json (also written by log_post.py after IG posts); grid.py renders it.
+    import grid, datetime
+    feed=json.load(open("feed.json")) if os.path.exists("feed.json") else {"source":"shared","posts":[]}
     for p in reversed(new):   # oldest first, so the newest ends up on top
         fn=f"img/post-{p['slug']}.jpg"; make_tile(p,len(known),fn)
-        url=p["canonical_url"]+"?utm_source=instagram&utm_medium=bio"; t=html.escape(p["title"])
-        a=f'<a class="t" href="{url}" aria-label="Read: {t}"><img src="{fn}" alt="{t}" loading="lazy"></a>\n'
-        page=page.replace('<nav class="g">\n','<nav class="g">\n'+a,1)
+        url=p["canonical_url"]+"?utm_source=instagram&utm_medium=bio"
+        feed["posts"]=[x for x in feed["posts"] if x.get("link")!=url]
+        feed["posts"].insert(0,dict(title=p["title"],image=fn,link=url,ig="",time=datetime.datetime.now().isoformat(timespec="minutes")))
         known.add(p["slug"]); state["known_slugs"].insert(0,p["slug"]); print("added",p["title"])
-    open("index.html","w").write(page); json.dump(state,open("posts.json","w"),indent=1)
+    json.dump(feed,open("feed.json","w"),indent=1,ensure_ascii=False); grid.render()
+    json.dump(state,open("posts.json","w"),indent=1)
+    if os.path.isdir(".git"): subprocess.run(["git","add","feed.json"])  # CI workflow stages index/posts/img only
     # CI owns its commit and push; --no-push only writes the site files.
     if os.path.isdir(".git") and "--no-push" not in sys.argv:
-        subprocess.run(["git","add","index.html","posts.json","img"],check=True)
+        subprocess.run(["git","add","index.html","posts.json","feed.json","img"],check=True)
         subprocess.run(["git","commit","-m","Add tiles: "+", ".join(p["title"] for p in new)],check=True)
         subprocess.run(["git","push","origin","main"],check=True)
 if __name__=="__main__": main()
