@@ -13,3 +13,7 @@ The updater checks the latest 50 entries in Brooke's public Substack archive. Fo
 Dependencies are Python 3.12, Pillow, and NumPy. The workflow uses its temporary GitHub token with `contents: write` and `pages: write` only in the update job; no personal token or repository-wide default write permission is required.
 
 `python3 update.py --no-push` changes local site files without committing or pushing. The workflow then commits changed site files and explicitly requests a Pages rebuild, because pushes using `GITHUB_TOKEN` do not trigger branch-based Pages builds.
+
+## Hub pages
+
+The `/reels`, `/posts` and `/notes` pages are built from JSON by `build_hubs.py`. See `HUBS.md`.

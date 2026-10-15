@@ -1,0 +1,207 @@
+{
+ "reels": [
+  {
+   "id": "facts-or-mysteries",
+   "title": "Facts or mysteries?",
+   "writer": "Susan Cain",
+   "publication": "The Quiet Life",
+   "status": "posted",
+   "ig": "https://www.instagram.com/substacktoday/reel/Deh5CXFKyrl/",
+   "articles": [
+    {
+     "label": "Read the article",
+     "url": "https://thequietlife.net/p/do-you-prefer-facts-or-mysteries"
+    }
+   ],
+   "cover": "img/reels/facts-or-mysteries.jpg"
+  },
+  {
+   "id": "stylist-fall-cart",
+   "title": "A stylist told me what to buy for fall",
+   "writer": "Anna Newton",
+   "publication": "The Wardrobe Edit",
+   "status": "posted",
+   "ig": "https://www.instagram.com/substacktoday/reel/DegDxiNqPGc/",
+   "articles": [
+    {
+     "label": "Read the article",
+     "url": "https://annanewton.substack.com/p/a-stylist-told-me-what-to-buy-for"
+    }
+   ],
+   "cover": "img/reels/stylist-fall-cart.jpg"
+  },
+  {
+   "id": "arguing-with-a-bot",
+   "title": "You are arguing with a bot",
+   "writer": "Jermaine Fowler",
+   "publication": "The Humanity Archive",
+   "status": "posted",
+   "ig": "https://www.instagram.com/substacktoday/reel/DefGqT2qqve/",
+   "articles": [
+    {
+     "label": "Read the article",
+     "url": "https://thehumanityarchive.substack.com/p/youve-been-arguing-with-an-internet"
+    }
+   ],
+   "cover": "img/reels/arguing-with-a-bot.jpg"
+  },
+  {
+   "id": "float-dont-flail",
+   "title": "Float. Don't flail.",
+   "writer": "Suleika Jaouad",
+   "publication": "The Isolation Journals",
+   "status": "scheduled",
+   "ig": "",
+   "articles": [
+    {
+     "label": "Read the article",
+     "url": "https://theisolationjournals.substack.com/p/float-dont-flail"
+    }
+   ],
+   "cover": "img/reels/float-dont-flail.jpg"
+  },
+  {
+   "id": "this-week-on-substack",
+   "title": "This week on Substack: the 3 posts everyone's reading",
+   "writer": "Noah Smith, Katelyn Jetelina, Ayushi Thakkar",
+   "publication": "Noahpinion, Your Local Epidemiologist, milk and cookies",
+   "status": "scheduled",
+   "ig": "",
+   "articles": [
+    {
+     "label": "Read: Noah Smith",
+     "url": "https://www.noahpinion.blog/p/maybe-the-rapture-is-already-here"
+    },
+    {
+     "label": "Read: Katelyn Jetelina",
+     "url": "https://yourlocalepidemiologist.substack.com/p/top-8-questions-about-the-plague"
+    },
+    {
+     "label": "Read: Ayushi Thakkar",
+     "url": "https://ayushithakkar.substack.com/p/the-exhaustion-of-being-a-good-person"
+    }
+   ],
+   "cover": "img/reels/this-week-on-substack.jpg"
+  },
+  {
+   "id": "ottolenghi-countdown",
+   "title": "Roast chicken in peppercorn sauce",
+   "writer": "Yotam Ottolenghi",
+   "publication": "Ottolenghi",
+   "status": "scheduled",
+   "ig": "",
+   "articles": [
+    {
+     "label": "Read the article",
+     "url": "https://ottolenghi.substack.com/p/roast-chicken-in-peppercorn-sauce"
+    }
+   ],
+   "cover": "img/reels/ottolenghi-countdown.jpg"
+  },
+  {
+   "id": "good-person-notifications",
+   "title": "The exhaustion of being a good person",
+   "writer": "Ayushi Thakkar",
+   "publication": "milk and cookies",
+   "status": "scheduled",
+   "ig": "",
+   "articles": [
+    {
+     "label": "Read the article",
+     "url": "https://ayushithakkar.substack.com/p/the-exhaustion-of-being-a-good-person"
+    }
+   ],
+   "cover": "img/reels/good-person-notifications.jpg"
+  },
+  {
+   "id": "frozen-meals-glow-up",
+   "title": "Shelf Life: frozen meals are getting better",
+   "writer": "Chloe Cordover",
+   "publication": "DIELINE",
+   "status": "scheduled",
+   "ig": "",
+   "articles": [
+    {
+     "label": "Read the article",
+     "url": "https://newsletter.thedieline.com/p/shelf-life-131-frozen-meals-are-getting"
+    }
+   ],
+   "cover": "img/reels/frozen-meals-glow-up.jpg"
+  },
+  {
+   "id": "good-bag-tier-list",
+   "title": "What makes a good bag?",
+   "writer": "David Coggins",
+   "publication": "The Contender",
+   "status": "scheduled",
+   "ig": "",
+   "articles": [
+    {
+     "label": "Read the article",
+     "url": "https://thecontender.substack.com/p/what-makes-a-good-bag"
+    }
+   ],
+   "cover": "img/reels/good-bag-tier-list.jpg"
+  },
+  {
+   "id": "light-speed-gauge",
+   "title": "Mass misconception: the real reason we can't outpace light",
+   "writer": "Big Think",
+   "publication": "Big Think",
+   "status": "scheduled",
+   "ig": "",
+   "articles": [
+    {
+     "label": "Read the article",
+     "url": "https://bigthinkmedia.substack.com/p/mass-misconception-the-real-reason"
+    }
+   ],
+   "cover": "img/reels/light-speed-gauge.jpg"
+  },
+  {
+   "id": "camera-roll-cleanout",
+   "title": "Camera roll cleanout",
+   "writer": "Hailee Steinfeld",
+   "publication": "Beau Society",
+   "status": "scheduled",
+   "ig": "",
+   "articles": [
+    {
+     "label": "Read the article",
+     "url": "https://beausociety.substack.com/p/camera-roll-cleanout-more-bs"
+    }
+   ],
+   "cover": "img/reels/camera-roll-cleanout.jpg"
+  },
+  {
+   "id": "tapestry-not-shown",
+   "title": "The story the Bayeux Tapestry doesn't tell",
+   "writer": "Lucy Worsley",
+   "publication": "my life in the past",
+   "status": "scheduled",
+   "ig": "",
+   "articles": [
+    {
+     "label": "Read the article",
+     "url": "https://lucyworsley.substack.com/p/the-story-the-bayeux-tapestry-doesnt"
+    }
+   ],
+   "cover": "img/reels/tapestry-not-shown.jpg"
+  },
+  {
+   "id": "teardown-or-fixer-upper",
+   "title": "Are we a teardown or a fixer-upper?",
+   "writer": "Austin Kleon",
+   "publication": "Austin Kleon",
+   "status": "scheduled",
+   "ig": "",
+   "articles": [
+    {
+     "label": "Read the article",
+     "url": "https://austinkleon.substack.com/p/are-we-a-teardown-or-a-fixer-upper"
+    }
+   ],
+   "cover": "img/reels/teardown-or-fixer-upper.jpg"
+  }
+ ]
+}
