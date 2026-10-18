@@ -1,6 +1,21 @@
 {
  "reels": [
   {
+   "id": "lantern-test",
+   "title": "Your Dream Home Won't Fix Your Brain",
+   "writer": "Brooke Kaylee",
+   "publication": "Brooke Kaylee",
+   "status": "posted",
+   "ig": "https://www.instagram.com/substacktoday/reel/DepEgypK91b/",
+   "articles": [
+    {
+     "label": "Read the article",
+     "url": "https://brookekaylee.substack.com/p/your-dream-home-wont-fix-your-brain"
+    }
+   ],
+   "cover": "img/reels/lantern-test.jpg"
+  },
+  {
    "id": "facts-or-mysteries",
    "title": "Facts or mysteries?",
    "writer": "Susan Cain",
