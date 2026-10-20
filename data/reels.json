@@ -1,6 +1,21 @@
 {
  "reels": [
   {
+   "id": "ottolenghi-countdown",
+   "title": "Roast chicken in peppercorn sauce",
+   "writer": "Yotam Ottolenghi",
+   "publication": "Ottolenghi",
+   "status": "posted",
+   "ig": "https://www.instagram.com/substacktoday/reel/DeuNjpfK-E5/",
+   "articles": [
+    {
+     "label": "Read the article",
+     "url": "https://ottolenghi.substack.com/p/roast-chicken-in-peppercorn-sauce"
+    }
+   ],
+   "cover": "img/reels/ottolenghi-countdown.jpg"
+  },
+  {
    "id": "lantern-test",
    "title": "Your Dream Home Won't Fix Your Brain",
    "writer": "Brooke Kaylee",
@@ -97,21 +112,6 @@
     }
    ],
    "cover": "img/reels/this-week-on-substack.jpg"
-  },
-  {
-   "id": "ottolenghi-countdown",
-   "title": "Roast chicken in peppercorn sauce",
-   "writer": "Yotam Ottolenghi",
-   "publication": "Ottolenghi",
-   "status": "scheduled",
-   "ig": "",
-   "articles": [
-    {
-     "label": "Read the article",
-     "url": "https://ottolenghi.substack.com/p/roast-chicken-in-peppercorn-sauce"
-    }
-   ],
-   "cover": "img/reels/ottolenghi-countdown.jpg"
   },
   {
    "id": "good-person-notifications",
