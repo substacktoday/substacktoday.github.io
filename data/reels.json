@@ -1,6 +1,21 @@
 {
  "reels": [
   {
+   "id": "feed-dial",
+   "title": "You told us you wanted more control",
+   "writer": "On Substack (Substack team)",
+   "publication": "On Substack",
+   "status": "posted",
+   "ig": "https://www.instagram.com/substacktoday/reel/DfBM7XhK4BE/",
+   "articles": [
+    {
+     "label": "Read the article",
+     "url": "https://on.substack.com/p/you-told-us-you-wanted-more-control"
+    }
+   ],
+   "cover": "img/reels/feed-dial.jpg"
+  },
+  {
    "id": "ottolenghi-countdown",
    "title": "Roast chicken in peppercorn sauce",
    "writer": "Yotam Ottolenghi",
