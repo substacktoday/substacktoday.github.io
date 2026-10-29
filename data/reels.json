@@ -1,6 +1,21 @@
 {
  "reels": [
   {
+   "id": "sorority-receipt",
+   "title": "The $19,898 sorority",
+   "writer": "Katie Gatti Tassin",
+   "publication": "Money with Katie",
+   "status": "posted",
+   "ig": "https://www.instagram.com/substacktoday/reel/DfDxtwmKls0/",
+   "articles": [
+    {
+     "label": "Read the article",
+     "url": "https://www.katiegattitassin.com/p/the-19898-sorority-and-why-we-cant"
+    }
+   ],
+   "cover": "img/reels/sorority-receipt.jpg"
+  },
+  {
    "id": "feed-dial",
    "title": "You told us you wanted more control",
    "writer": "On Substack (Substack team)",
