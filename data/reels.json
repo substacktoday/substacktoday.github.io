@@ -1,6 +1,36 @@
 {
  "reels": [
   {
+   "id": "talk-time-slider",
+   "title": "How to become a great conversationalist",
+   "writer": "Francesca Tighinean",
+   "publication": "Big Think",
+   "status": "posted",
+   "ig": "https://www.instagram.com/substacktoday/reel/DfGWhpcKMDQ/",
+   "articles": [
+    {
+     "label": "Read the article",
+     "url": "https://bigthinkmedia.substack.com/p/how-to-become-a-great-conversationalist"
+    }
+   ],
+   "cover": "img/reels/talk-time-slider.jpg"
+  },
+  {
+   "id": "yoga-is-yoga",
+   "title": "Yoga Is Yoga",
+   "writer": "Brooke Bein",
+   "publication": "Material Girl, Immaterial World",
+   "status": "posted",
+   "ig": "https://www.instagram.com/substacktoday/reel/De-wVxaKqHm/",
+   "articles": [
+    {
+     "label": "Read the article",
+     "url": "https://brookekaylee.substack.com/p/yoga-is-yoga"
+    }
+   ],
+   "cover": "img/reels/yoga-is-yoga.jpg"
+  },
+  {
    "id": "sorority-receipt",
    "title": "The $19,898 sorority",
    "writer": "Katie Gatti Tassin",
