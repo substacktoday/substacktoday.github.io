@@ -1,6 +1,21 @@
 {
  "reels": [
   {
+   "id": "fool-tarot",
+   "title": "Life is meant to be a bit embarrassing",
+   "writer": "Jemma Sbeg",
+   "publication": "The Psychology of Your 20s",
+   "status": "posted",
+   "ig": "https://www.instagram.com/substacktoday/reel/DfI7UYJqAyg/",
+   "articles": [
+    {
+     "label": "Read the article",
+     "url": "https://thepsychologyofyour20s.substack.com/p/life-is-meant-to-be-a-bit-embarrassing"
+    }
+   ],
+   "cover": "img/reels/fool-tarot.jpg"
+  },
+  {
    "id": "talk-time-slider",
    "title": "How to become a great conversationalist",
    "writer": "Francesca Tighinean",
