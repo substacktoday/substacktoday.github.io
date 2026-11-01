@@ -1,6 +1,21 @@
 {
  "reels": [
   {
+   "id": "knock-on-the-glass",
+   "title": "Grand gestures are for bad partners",
+   "writer": "Brooke Bein",
+   "publication": "Material Girl, Immaterial World",
+   "status": "posted",
+   "ig": "https://www.instagram.com/substacktoday/reel/DfLgHSLKvmR/",
+   "articles": [
+    {
+     "label": "Read the article",
+     "url": "https://brookekaylee.substack.com/p/grand-gestures-are-for-bad-partners"
+    }
+   ],
+   "cover": "img/reels/knock-on-the-glass.jpg"
+  },
+  {
    "id": "fool-tarot",
    "title": "Life is meant to be a bit embarrassing",
    "writer": "Jemma Sbeg",
