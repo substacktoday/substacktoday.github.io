@@ -1,6 +1,21 @@
 {
  "reels": [
   {
+   "id": "audience-of-one",
+   "title": "AI is ushering in an age of personal media",
+   "writer": "Benj Edwards",
+   "publication": "Understanding AI",
+   "status": "posted",
+   "ig": "https://www.instagram.com/substacktoday/reel/DfOE50bKKna/",
+   "articles": [
+    {
+     "label": "Read the article",
+     "url": "https://www.understandingai.org/p/ai-is-ushering-in-an-age-personal"
+    }
+   ],
+   "cover": "img/reels/audience-of-one.jpg"
+  },
+  {
    "id": "knock-on-the-glass",
    "title": "Grand gestures are for bad partners",
    "writer": "Brooke Bein",
